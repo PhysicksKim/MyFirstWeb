@@ -3,23 +3,40 @@
   <head>
     <title> GAMES - 2. Factorio</Title>
     <meta charset="utf-8";>
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-223356614-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-223356614-1');
+    </script>
+
   </head>
 
 
   <body>
     <h1><a href="index.html">GAMES</a></h1>
-    <ol>
-      <li><a href="1.html">Kerbal Space Program</a></li>
-      <li><a href="2.html">Factorio</a></li>
-      <li><a href="3.html">Kerbal Space Program 2</a></li>
-    </ol>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Kerbal Space Program</a></li>
+        <li><a href="2.html">Factorio</a></li>
+        <li><a href="3.html">Kerbal Space Program 2</a></li>
+      </ol>
 
-    <h1>Factorio</h1>
-    <p>
-      <img src="factorio.jpg" width="100%" style="margin-bottom:40px">
+      <div id="article">
+        <h1>Factorio</h1>
+        <p>
+          <img src="factorio.jpg" width="100%" style="margin-bottom:40px">
 
-      Factorio is a game in which you build and maintain factories. You will be mining resources, researching technologies, building infrastructure, automating production and fighting enemies.
-    </p>
+          Factorio is a game in which you build and maintain factories. You will be mining resources, researching technologies, building infrastructure, automating production and fighting enemies.
+        </p>
+      </div>
+    </div>
+
     <p>
       <div id="disqus_thread"></div>
       <script>
