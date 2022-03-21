@@ -3,7 +3,7 @@
   <head>
     <title> GAMES - 2. Factorio</Title>
     <meta charset="utf-8";>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-223356614-1"></script>
@@ -14,12 +14,15 @@
 
       gtag('config', 'UA-223356614-1');
     </script>
-
+    <script src="colors.js"></script>
   </head>
 
 
   <body>
     <h1><a href="index.html">GAMES</a></h1>
+    <input type="button" value="changeToNight" onclick="
+      nightDayHandler(this);
+    ">
     <div id="grid">
       <ol>
         <li><a href="1.html">Kerbal Space Program</a></li>
