@@ -1,18 +1,21 @@
 var links = {
   SetColor:function (color){
-    var targetHrefText = document.querySelectorAll('a');
-    for (i=0; i<targetHrefText.length; i++){
-      targetHrefText[i].style.color = color;
-    }
+    // var targetHrefText = document.querySelectorAll('a');
+    // for (i=0; i<targetHrefText.length; i++){
+    //   targetHrefText[i].style.color = color;
+    // }
+    $('a').css("color",color);
   }
 }
 
 var jamieBody = {
   SetColor:function (color){
-    document.querySelector('body').style.color = color;
+    // document.querySelector('body').style.color = color;
+    $('body').css("color",color);
   },
   SetBackColor:function (color){
-    document.querySelector('body').style.backgroundColor = color;
+    // document.querySelector('body').style.backgroundColor = color;
+    $('body').css("backgroundColor",color);
   }
 }
 
